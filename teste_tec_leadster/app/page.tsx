@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/intex";
 import { Header } from "./components/Header";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       <main>
         <h1>main</h1>
       </main>
+      <Footer />
     </>
   );
 }

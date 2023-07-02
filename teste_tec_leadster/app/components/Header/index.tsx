@@ -6,7 +6,7 @@ import { StyledHeader } from "./HeaderStyles";
 export const Header = () => {
   return (
     <StyledHeader>
-      <Image src={logo} height={400} width={400} alt="Logo" />
+      <Image src={logo} alt="Logo" />
     </StyledHeader>
   );
 };
