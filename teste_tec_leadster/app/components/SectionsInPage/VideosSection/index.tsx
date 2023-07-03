@@ -1,10 +1,10 @@
-// import { CardVideo } from "@/app/components/CardVideos";
+"use client";
+
 import data from "../../../../public/Mock/videos.json";
 import { CardVideo } from "../../CardVideo";
-
 import { StyledVideoSection } from "./StyledVideosSection";
 
-export const VideoSection = ({ modal }: any) => {
+export const VideoSection = () => {
   return (
     <StyledVideoSection>
       <nav>
@@ -65,8 +65,8 @@ export const VideoSection = ({ modal }: any) => {
       </nav>
       <div className="containerVideos">
         <ul>
-          {data.map((video) => (
-            <CardVideo key={Math.random} video={video} />
+          {data.map((e) => (
+            <CardVideo key={e.data_publicacao} video={e} />
           ))}
         </ul>
       </div>

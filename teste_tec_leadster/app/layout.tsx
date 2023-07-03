@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import { ResetStyled } from "./css/StyledReset";
 import { GlobalStyled } from "./css/StyledGlobal";
+import { ContextGlobalProvider } from "./contexts/GlobalContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ResetStyled />
         <GlobalStyled />
-        {children}
+        <ContextGlobalProvider>{children}</ContextGlobalProvider>
       </body>
     </html>
   );

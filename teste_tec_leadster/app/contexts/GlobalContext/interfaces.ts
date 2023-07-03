@@ -5,6 +5,6 @@ export interface iChildren {
 }
 
 export interface IGlobalContext {
-  videoModal: boolean;
+  videoModal: any;
   setVideoModal: any;
 }

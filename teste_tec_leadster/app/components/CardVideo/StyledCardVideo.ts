@@ -1,7 +1,8 @@
 "use client";
+
 import styled from "styled-components";
 
-export const StyledCardVideo = styled.a`
+export const StyledCardVideo = styled.li`
   position: relative;
   display: flex;
   justify-content: center;
@@ -12,6 +13,7 @@ export const StyledCardVideo = styled.a`
   background-color: white;
   border-radius: 12px;
   box-shadow: 1px 1px 20px 1px rgb(231, 230, 230);
+  cursor: pointer;
 
   img {
     border-radius: 12px 12px 0 0;
