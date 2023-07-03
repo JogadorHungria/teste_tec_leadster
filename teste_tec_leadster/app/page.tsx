@@ -1,13 +1,13 @@
 import { Footer } from "./components/Footer/intex";
 import { Header } from "./components/Header";
-import { Introduction } from "./components/SectionsPage/IntroductionSection";
+import { IntroductionSection } from "./components/SectionsInPage/IntroductionSection";
 
 export default function Home() {
   return (
     <>
       <Header />
       <main>
-        <Introduction />
+        <IntroductionSection />
       </main>
       <Footer />
     </>

@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 
-export const IntroductionStyle = styled.section`
+export const StyledIntroductionSection = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ export const IntroductionStyle = styled.section`
     right: -22px;
   }
 
-  .introductionTitle1 {
+  .span1 {
     font-size: var(--font-title-4);
     color: var(--color-2);
     border: 2px solid;
@@ -27,13 +27,13 @@ export const IntroductionStyle = styled.section`
     font-weight: 800;
   }
 
-  .introductionTitle2 {
+  .span2 {
     font-size: var(--font-title-2);
     color: var(--color-grey-2);
     font-weight: 500;
   }
 
-  .introductionTitle3 {
+  .span3 {
     position: relative;
     font-size: var(--font-title-1);
     font-weight: 600;
@@ -42,14 +42,14 @@ export const IntroductionStyle = styled.section`
     color: var(--color-1);
   }
 
-  .introductionTitle4 {
+  .span4 {
     font-size: var(--font-text-4);
     font-weight: 500;
     padding: 20px 5px;
   }
 
   @media (max-width: 350px) {
-    .introductionTitle3 {
+    .span3 {
       padding-top: 2px;
     }
 
